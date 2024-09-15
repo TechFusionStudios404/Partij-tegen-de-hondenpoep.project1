@@ -6,33 +6,61 @@
     <title>Kom In Actie | Schoon Nederland</title>
     <style>
         body {
-        background-color:#ff880055;
-        font-family:Comic, magenta, Arial;
-    }
-   div-container  {
-        background-color:#ff00ae55;
-        box-shadow:(0,0,1 #ff000000);
-        position: fixed;
-   }
-   button {
-    background-color: #ff000000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   }
+            background-color: rgba(255, 136, 0, 0.33); /* Lighter transparent orange */
+            font-family: 'Comic Sans MS', Arial, sans-serif; /* Valid font family */
+        }
+        
+        .div-container {
+            background-color: rgba(255, 0, 174, 0.33); /* Transparent magenta background */
+            box-shadow: 0 0 1px rgba(255, 0, 0, 1); /* Corrected box-shadow syntax */
+            padding: 20px;
+            position: relative;
+        }
+
+        button {
+            background-color: transparent;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 10px 15px;
+            margin: 5px;
+            border: 2px solid #ff0000; /* Add a red border to buttons */
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #000; /* Fixed footer background-color */
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .button-container {
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
     <div class="div-container">
         <a href="index2.html">Kom in actie!</a>
-         <a href="contact.html"><button>Contact</button></a>         
-         <a href="index.html">Home</a>                                                                                                                                                                                        <div class="button">
-                                                                                                                                                                                    <a href="standpunten.html"><button>Onze standpunten</button></a></div>
+        <div class="button-container">
+            <a href="contact.html"><button>Contact</button></a>
+            <a href="index.html"><button>Home</button></a>
+            <a href="standpunten.html"><button>Onze standpunten</button></a>
+        </div>
         
-<h1>Dingen die je kunt doen:</h1>
-<h2>- Stuur een brief naar de wethouder</h2>
-<h2>- Protesteer</h2>
-<h2>- Maak hastags aan op social media. Bijv: #SchoonNederland, #PartijTegenHondenPoep</h2>
-<img src="https://webtinq.nl/dduck-express/afbeeldingen/project1.png" width="400" height="400">
-<footer><h3>Powered by TechFusion Studios | techfusionstudios.nl</h3></footer>
+        <h1>Dingen die je kunt doen:</h1>
+        <h2>- Stuur een brief naar de wethouder</h2>
+        <h2>- Protesteer</h2>
+        <h2>- Maak hashtags aan op social media. Bijv: #SchoonNederland, #PartijTegenHondenPoep</h2>
+        
+        <img src="https://webtinq.nl/dduck-express/afbeeldingen/project1.png" width="400" height="400" alt="Project 1 afbeelding">
+    </div>
+
+    <footer>
+        <h3>Powered by TechFusion Studios | <a href="https://techfusionstudios.nl" target="_blank" style="color: white;">techfusionstudios.nl</a></h3>
+    </footer>
 </body>
 </html>
 
